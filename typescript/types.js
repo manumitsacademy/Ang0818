@@ -1,0 +1,28 @@
+var x;
+//x="manumits.com";
+var k;
+//k=100;
+var p;
+p = false;
+var employees = ["praveen", "gubala"];
+var ages = [12, 23, 34, 56];
+var w;
+w = 2000;
+console.log(w);
+w = "praveen";
+console.log(w);
+var t = "ramesh";
+console.log(t);
+t = 400;
+console.log(t);
+var myCarBrand;
+myCarBrand = 'Audi';
+var Color;
+(function (Color) {
+    Color[Color["Red"] = 0] = "Red";
+    Color[Color["Blue"] = 1] = "Blue";
+    Color[Color["Green"] = 2] = "Green";
+})(Color || (Color = {}));
+;
+var myCarColor = Color.Red;
+console.log(myCarColor);

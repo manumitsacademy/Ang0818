@@ -1,0 +1,25 @@
+<html>
+	<body>
+		<script>
+		
+		//a class is a collection of properties and methods
+			function Employee(){
+				q=99;
+				this.firstname="Praveen";//property 1
+				this.lastname="Gubbala";//property 2
+				var x=0;//variable	
+				this.getFullName=function(){
+					return this.firstname+this.lastname;
+				}//method
+				var xyz = function(){
+					return "THis is XTYZ";
+				}//private function
+			}
+			var e1 = new Employee();			
+			e1.firstname="Srikanth";
+			console.log(e1.firstname);
+			var e2 = new Employee();			
+			console.log(e2.firstname);
+		</script>
+	</body>
+</html>
